@@ -1,4 +1,4 @@
 # GitHome
 Always open for improvement.
-Shrey Singour
+Author - Shrey Singour
 
