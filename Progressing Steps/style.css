@@ -30,8 +30,7 @@ body {
     border: 3px solid rgb(234, 228, 228);
     border-radius: 50%;
     color: rgb(234, 228, 228);
-    /* margin-bottom: 50px;
-    margin-top: 50px; */
+    transition: border-color 0.2s ease;
 }
 
 .lines {
@@ -39,6 +38,7 @@ body {
     height: 3px;
     width: 70px;
     align-self: center;
+    transition: background-color 0.2s ease;
 }
 
 #btns {

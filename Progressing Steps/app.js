@@ -57,6 +57,19 @@ function updateCircle() {
         }
     })
 
+    nextBtn.disabled = false;
+    prevBtn.disabled = false;
+
+
+    if(counterCircle == circles.length) {
+        nextBtn.disabled = true;
+    }
+
+    else if(counterCircle == 1) {
+        prevBtn.disabled = true;
+    }
+
+
 }
 
 function updateLine() {
@@ -69,19 +82,7 @@ function updateLine() {
         }
     })
 
-}
-
-
-    nextBtn.disabled = false;
-    prevBtn.disabled = false;
-
-
-if(counterCircle == circles.length) {
-    nextBtn.disabled = true;
-}
-
-else if(counterCircle == 1) {
-    prevBtn.disabled = true;
-}
-
     
+}
+
+updateCircle();
