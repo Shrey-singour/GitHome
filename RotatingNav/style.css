@@ -1,0 +1,136 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    /* box-sizing: border-box; */
+    
+}
+
+body {
+    position: relative;
+    background-color: rgb(33, 32, 32);
+    margin: 0px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: rgb(216, 246, 241);
+    transition: transform 0.5s linear;
+    transform-origin: 0% 0%;
+    
+}
+
+.inner {
+    width: 70vw;
+    margin: 40px 100px;
+    z-index: 1;
+}
+
+img {
+    width: inherit;
+    margin-bottom: 10px;
+}
+
+h1 p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+h1 {
+    font-weight: 600;
+    /* margin-top: 50px; */
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.navBtn {
+    background-color: rgb(103, 148, 37);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: -100px;
+    left: -100px;
+    font-family: "Montserrat", sans-serif;
+    z-index: 10;
+    transition: transform 0.5s linear;
+    
+}
+
+
+#hamburger {
+    position: fixed;
+    transform: translate(37px, 37px);
+    font-size: xx-large;
+    border: none;
+    background-color: rgb(103, 148, 37);
+    color: white;
+}
+
+#cross {
+    position: fixed;
+    transform: translate(-37px, 37px);
+    font-size: xx-large;
+    border: none;
+    background-color: rgb(103, 148, 37);
+    color: white;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
+nav {
+    width: 210px;
+    height: 200px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+    transform: translateX(-210px);
+    transition: transform 0.5s linear;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px; 
+}
+
+nav ul li {
+    margin: 30px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+}
+
+/* ======================================================== */
+
+.rotateContainer {
+    transform: rotate(-15deg);
+}
+
+.rotateNav {
+    transform: rotate(-90deg);
+}
+
+.moveX {
+    transform: translateX(0px);
+}
