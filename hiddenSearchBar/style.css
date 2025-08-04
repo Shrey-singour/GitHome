@@ -1,0 +1,57 @@
+*{  
+    margin: 0;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    font-size: x-large;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    transition: transform 0.4s ease;
+
+}
+
+input {
+    height: 50px;
+    width: 0px;
+    font-size: larger;
+    border: none;
+    transition: width 0.4s ease;
+    padding: 0;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+i {
+    transition: transform 1s ease;
+}
+
+/* ========================== */
+
+.inpShow {
+    width: 200px;
+    padding-left: 10px;
+}
+
+.iconRotate {
+    display: inline-block ;
+    transform: rotate(360deg) scale(1.1);
+}
