@@ -8,7 +8,23 @@
 }
 
 .container {
-    background-image: url(https://images.unsplash.com/photo-1669067585141-2e67dfda2ffc?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1660486965992-c921b45b7e65?q=80&w=1154&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progress {
+    width: 10vw;
+    height: 10vh;
+    background-color: blue;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
